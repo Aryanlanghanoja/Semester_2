@@ -1,0 +1,13 @@
+EDCAD Assigment
+
+1) Draw A Ellipse By any 4 Methods
+- Major Axis 90mm
+- Minor Axis 60mm
+(Concentric Circle Method)
+(Rhombus Method)
+(Rectangle Method)
+(Oblong Method)
+
+2)
+3)
+4) Make 3D Model ANd Make The Diagram For That.
