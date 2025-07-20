@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Lab_Assigment_5
+{
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+
+        // Display a prompt and ask the user to enter his or her name.
+
+        String Name;
+
+        System.out.println("Enter Your Name:-");
+        Name = sc.nextLine();
+
+        System.out.println("Your Name Is " + Name);
+
+        // Display a prompt and ask the user to enter three integers, called a,b,c respectively. These numbers
+        //will represent the coefficients of a quadratic equation:
+        //ax2 + bx + c
+
+        int a,b,c;
+
+        System.out.println("Enter The Value Of A,B,C:-");
+        a = sc.nextInt();
+        b = sc.nextInt();
+        c = sc.nextInt();
+
+        // Print the formula they have entered on the screen.
+        System.out.println(a + "x2 + " + b + "x + " + c);
+
+        // Next print to the screen the derivative of the equation as a formula. For a quadratic equation
+        //above, the derivative will be
+        //2ax + b
+
+        System.out.println(2*a + "x" + b);
+    }
+}
